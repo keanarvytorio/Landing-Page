@@ -60,3 +60,29 @@ header ul li a.btn:hover {
     color: #25509e;
     background-color: #c1d7ff ;
 }
+
+/*Submenui Starts*/
+
+.submenu {
+    max-width: 200px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px #333;
+    padding-left: 0;
+    margin-top: 15px;
+    opacity: 0;
+    transition: all ease .5s;
+    z-index: 1;
+    display: block;
+}
+
+ul li:hover .submenu {
+    opacity: 1;
+    margin: 20px 0;
+}
+
+.submenu li {
+    margin: 0;
+    border: 1px solid red;
+}
